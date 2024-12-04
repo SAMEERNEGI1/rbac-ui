@@ -1,0 +1,79 @@
+
+.dashboard-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  .dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Overview Section */
+  .overview {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+  }
+  
+  .overview h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat-card {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 22%;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stat-card h3 {
+    color: #61dafb;
+    font-size: 24px;
+  }
+  
+  .stat-card p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Recent Activities Section */
+  .recent-activities {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .recent-activities h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .activity-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .activity-item p {
+    margin: 0;
+    color: #555;
+  }
+  

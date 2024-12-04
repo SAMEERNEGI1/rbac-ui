@@ -1,0 +1,76 @@
+/* src/components/View.css */
+
+/* Main container styling */
+.view-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Section styling */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  /* Report section */
+  .report-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .report-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .report-section p {
+    color: #555;
+  }
+  
+  .view-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  .view-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Image Gallery */
+  .image-gallery {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .gallery-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Description section */
+  .description-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .description-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .description-section p {
+    color: #555;
+  }
+  

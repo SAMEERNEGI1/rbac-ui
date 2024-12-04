@@ -1,0 +1,109 @@
+/* src/components/Admin.css */
+
+/* Main container styling */
+.admin-container {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styling */
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Role Management Section */
+  .role-management {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .role-management h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .role-list {
+    margin-top: 20px;
+  }
+  
+  .role-item {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .role-item p {
+    margin: 5px 0;
+  }
+  
+  .btn-edit, .btn-delete {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    background-color: #61dafb;
+    color: white;
+  }
+  
+  .btn-delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .btn-edit:hover, .btn-delete:hover {
+    opacity: 0.8;
+  }
+  
+  /* Add New User Section */
+  .add-user {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+  }
+  
+  .add-user h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .add-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-user-form input, .add-user-form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-user-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-user-form button:hover {
+    background-color: #4fa3d1;
+  }
+  
